@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            border: 1px solid gray;
+            display: flex;
+        }
+        li{
+            transition: all 0.5s;
+        }
+        li:hover{
+            transform: scale(1.1);
+            translate: 10px;
+        }
+        body{
+            display:flex;
+            flex-direction: column;
+        }
+        nav{
+            order: -1;
+            padding-right: 50px;
+            border-right: 1px solid gray;
+            }
+        aside{
+            align-content:center;
+            padding-right: 25px;
+            padding-left:25px;
+            border-left: 1px solid gray;
+        }
+        #clickbutton{
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            background-color: aquamarine;
+            border-radius: 1cap;
+            transition: all 0.5s;
+        }
+        #clickbutton:hover{
+            translate: 0 -10px;
+            box-shadow: 0 10px 3px -3px #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Document</h1>
+        <form action="index.html">
+            ID : <input name="id" type="text"><br>
+            PW : <input name="password" type="password">
+            <br><input type="checkbox">I agree terms and conditions<br>
+            <input type="submit" value="Sign up">
+        </form>
+    </header>
+    <br>
+    <section>
+        <article>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ipsa fugiat minima adipisci quam perferendis alias cumque similique, minus officiis repellat possimus eius reiciendis nam quod fuga neque delectus laudantium.
+            Laborum earum enim ut ex quos maxime suscipit laudantium quis nostrum eum numquam delectus minus amet neque voluptate accusamus doloremque sit dolores vero, autem a veritatis quidem molestias. Omnis, quia.
+            Laboriosam natus, nisi reiciendis itaque, eveniet architecto doloremque aut nihil tempora consequatur possimus, harum porro eaque quo illo. Aspernatur officiis sequi ratione ea nulla nemo deleniti itaque esse odit est?
+            Ab dolores nisi voluptatum deserunt voluptatem aut odio similique, et nulla eius, itaque ratione quaerat eos recusandae, obcaecati possimus sunt tempora eum porro accusamus? Iure ipsam earum fuga ea beatae?
+            Quibusdam qui corrupti non. <a target="_blank" href="https://www.naver.com">Libero</a> fugiat ipsam facilis itaque maiores magnam, enim, quaerat velit obcaecati tenetur eum error ea illum minus hic pariatur voluptate repellat impedit autem! Consequatur, nesciunt excepturi.
+        </article>
+        <nav>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+        </nav>
+        <aside>
+            <form target="_blank" action="https://www.google.com">
+                <button id="clickbutton">Click Me</button>
+            </form>
+        </aside>
+    </section>
+    <footer>
+        copyright
+    </footer>
+</body>
+</html>
